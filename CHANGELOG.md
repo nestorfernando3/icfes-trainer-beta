@@ -5,6 +5,24 @@ Todos los cambios notables en este proyecto serán documentados en este archivo.
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/),
 y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
+## [1.1.0] - 2026-02-05
+
+### Añadido
+- Despliegue automático a GitHub Pages mediante GitHub Actions
+- Definiciones pedagógicas integradas en preguntas de figuras retóricas
+- Contexto educativo para Metáfora, Símil, Hipérbole, Personificación, Ironía, Sinestesia, Epíteto, Prosopopeya, Calambur y Sinécdoque
+- Definiciones para conceptos gramaticales (Diptongo, Hiato, Triptongo)
+
+### Mejorado
+- Enunciados de preguntas ahora incluyen la definición técnica para facilitar el aprendizaje
+- Mejor flujo pedagógico: el estudiante lee la definición antes de identificar ejemplos
+
+### Infraestructura
+- Repositorio público en GitHub con licencia MIT
+- Webapp disponible en: https://nestorfernando3.github.io/icfes-trainer-lenguaje/
+
+---
+
 ## [1.0.0] - 2026-02-05
 
 ### Añadido
