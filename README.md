@@ -1,16 +1,73 @@
-# React + Vite
+# 🎓 ICFES Trainer - Simulador de Lectura Crítica
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Webapp](https://img.shields.io/badge/🚀_ACCEDER_A_LA_APP-4285F4?style=for-the-badge)](https://nestorfernando3.github.io/icfes-trainer-lenguaje/)
+[![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Acceso Rápido
 
-## React Compiler
+### **👉 [ABRIR WEBAPP](https://nestorfernando3.github.io/icfes-trainer-lenguaje/) 👈**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Accede desde cualquier dispositivo con navegador. No requiere instalación.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📖 ¿Qué es esto?
+
+**ICFES Trainer** es un simulador web gratuito para practicar la prueba de **Lectura Crítica** del examen Saber 11 del ICFES (Colombia).
+
+### ✨ Características principales
+
+| Característica | Descripción |
+|----------------|-------------|
+| **100 preguntas** | Banco completo de preguntas tipo ICFES |
+| **4 categorías** | Textos expositivos, encuestas, especificaciones ICFES, gramática |
+| **Aprendizaje activo** | Cada pregunta incluye definiciones y contexto educativo |
+| **Retroalimentación inmediata** | Explicación de cada respuesta correcta |
+| **Sin instalación** | Funciona directamente en el navegador |
+| **Modo oscuro** | Interfaz moderna con glassmorphism |
+
+---
+
+## 📚 Categorías de Preguntas
+
+1. **Lectura crítica: textos expositivos** - Análisis de textos sobre medio ambiente y sociedad
+2. **Lectura crítica: encuesta ambiental** - Interpretación de datos y estadísticas
+3. **Comprensión de especificaciones ICFES** - Entender las instrucciones oficiales
+4. **Conocimientos lingüísticos y gramaticales** - Figuras retóricas, ortografía, sintaxis
+
+---
+
+## 🎯 ¿Cómo funciona?
+
+1. **Selecciona** una categoría o practica con todas
+2. **Elige** la cantidad de preguntas (10, 20, 50 o todas)
+3. **Responde** cada pregunta y recibe retroalimentación inmediata
+4. **Revisa** tu puntuación final y las explicaciones
+
+---
+
+## 🛠️ Tecnologías
+
+- **Vite + React** - Framework moderno y rápido
+- **CSS con glassmorphism** - Diseño premium
+- **GitHub Pages** - Hosting gratuito y automático
+
+---
+
+## 📝 Licencia
+
+Este proyecto es de código abierto bajo la [Licencia MIT](LICENSE). Puedes usarlo, modificarlo y distribuirlo libremente.
+
+---
+
+## 🤝 Contribuir
+
+¿Encontraste un error o tienes sugerencias? Abre un [issue](https://github.com/nestorfernando3/icfes-trainer-lenguaje/issues) o envía un pull request.
+
+---
+
+<p align="center">
+  <strong>¡Buena suerte en tu preparación para el ICFES! 🍀</strong>
+</p>
