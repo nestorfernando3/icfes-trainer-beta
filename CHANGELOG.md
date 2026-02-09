@@ -11,7 +11,21 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 - Corrección en la lógica de puntuación: ahora compara números robustamente para evitar errores de tipo.
 - Mejoras en enunciados y explicaciones de preguntas para mayor claridad pedagógica.
 
-## [1.1.0] - 2026-02-05
+## [2.0.0-beta] - 2026-02-09
+
+### Añadido
+- **Selección de Asignatura Independiente:** Menús separados para *Lectura Crítica* y *Matemáticas* al iniciar.
+- **Categorización Matemática:** El módulo de Matemáticas ahora incluye filtros específicos por tema:
+  - Álgebra
+  - Geometría
+  - Estadística
+  - Probabilidad
+  - Cálculo
+  - Razonamiento
+- **Nuevas Tarjetas Visuales:** Iconos y colores distintivos para cada subtema matemático.
+- **Flujo de Usuario Mejorado:** La selección de preguntas se adapta dinámicamente según la asignatura escogida.
+
+## [1.1.1] - 2026-02-06
 
 ### Añadido
 - Despliegue automático a GitHub Pages mediante GitHub Actions
