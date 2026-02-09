@@ -1,96 +1,64 @@
-# 🎓 ICFES Trainer - Simulador de Lectura Crítica
+# 🎓 ICFES Trainer (BETA) - Matemáticas y Lectura Crítica
 
-[![Webapp](https://img.shields.io/badge/🚀_ACCEDER_A_LA_APP-4285F4?style=for-the-badge)](https://nestorfernando3.github.io/icfes-trainer-lenguaje/)
+[![Webapp Beta](https://img.shields.io/badge/🚀_ABRIR_BETA_WEBAPP-FF5722?style=for-the-badge)](https://nestorfernando3.github.io/icfes-trainer-beta/)
+[![Repo Original](https://img.shields.io/badge/⬅️_VER_REPO_ESTABLE-4285F4?style=for-the-badge)](https://github.com/nestorfernando3/icfes-trainer-lenguaje)
 [![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green.svg?style=for-the-badge)](LICENSE)
 
 ---
 
 ## 🌐 Acceso Rápido
 
-### **👉 [ABRIR WEBAPP](https://nestorfernando3.github.io/icfes-trainer-lenguaje/) 👈**
+### **👉 [ABRIR WEBAPP BETA](https://nestorfernando3.github.io/icfes-trainer-beta/) 👈**
 
-Accede desde cualquier dispositivo con navegador. No requiere instalación.
-
----
-
-## 🚀 Versión Beta: Matemáticas + Lectura Crítica
-
-Esta es una versión **BETA** que incluye un nuevo banco de preguntas de matemáticas y una interfaz para seleccionar entre asignaturas.
-
-### ✨ Novedades
-- **Selección de Asignatura**: Elige entre **Lectura Crítica** y **Matemáticas**.
-- **Banco de Matemáticas**: 20 preguntas nuevas cubriendo Álgebra, Geometría, Estadística y Probabilidad.
-- **Filtrado Inteligente**: Acceso directo a temas específicos según la asignatura.
-
-### 🌐 Probar Beta
-Accede a la versión Beta desplegada aquí:
-**👉 [https://nestorfernando3.github.io/icfes-trainer-beta/](https://nestorfernando3.github.io/icfes-trainer-beta/)**
-
-Repositorio Beta: [nestorfernando3/icfes-trainer-beta](https://github.com/nestorfernando3/icfes-trainer-beta)
+Accede a la versión de prueba con las nuevas funcionalidades de Matemáticas desde cualquier dispositivo.
 
 ---
 
-## 📖 ¿Qué es esto?
+## 🧪 ¿Qué es esta versión?
 
-**ICFES Trainer** es un simulador web gratuito para practicar las pruebas de **Lectura Crítica** y **Matemáticas** del examen Saber 11 del ICFES (Colombia).
+Esta es la **Versión Beta (2.0.0)** de **ICFES Trainer**. A diferencia de la versión estable, esta incluye un módulo completo de **Matemáticas** y una nueva interfaz de navegación.
 
-### ✨ Características principales
+### ✨ Novedades Exclusivas de la Beta
 
 | Característica | Descripción |
 |----------------|-------------|
-| **120+ preguntas** | Banco combinado de Lectura y Matemáticas |
-| **2 Asignaturas** | Práctica focalizada por área |
-| **Aprendizaje activo** | Retroalimentación y justificación paso a paso |
-| **Modo oscuro** | Interfaz moderna con glassmorphism |
-| **Sin instalación** | Funciona directamente en el navegador |
+| **Selección de Asignatura** | Menú inicial para elegir entre **Lectura Crítica** y **Matemáticas** |
+| **Banco de Matemáticas** | 20 preguntas nuevas de Álgebra, Geometría, Estadística y Probabilidad |
+| **Menús Diferenciados** | Filtros específicos por tema para cada asignatura |
+| **Interfaz Renovada** | Nuevas tarjetas visuales y categorización mejorada |
 
 ---
 
-## 📚 Categorías de Preguntas
+## 📚 Categorías Disponibles
+
+### 📐 Matemáticas
+1. **Álgebra**: Ecuaciones, funciones y desigualdades.
+2. **Geometría**: Áreas, volúmenes y relaciones espaciales.
+3. **Estadística**: Interpretación de datos, promedios y gráficos.
+4. **Probabilidad**: Cálculo de eventos y azar.
 
 ### 📖 Lectura Crítica
-1. **Textos expositivos** - Análisis socio-ambiental
-2. **Encuesta ambiental** - Interpretación de datos
-3. **Especificaciones ICFES** - Instrucciones oficiales
-4. **Gramática** - Figuras retóricas y sintaxis
-
-### 📐 Matemáticas (¡Nuevo!)
-1. **Álgebra** - Ecuaciones y funciones
-2. **Geometría** - Áreas, volúmenes y teoremas
-3. **Estadística** - Promedios y gráficos
-4. **Probabilidad** - Cálculo de eventos simples y compuestos
-
----
-
-## 🎯 ¿Cómo funciona?
-
-1. **Selecciona** una categoría o practica con todas
-2. **Elige** la cantidad de preguntas (10, 20, 50 o todas)
-3. **Responde** cada pregunta y recibe retroalimentación inmediata
-4. **Revisa** tu puntuación final y las explicaciones
+1. **Textos expositivos**: Análisis socio-ambiental.
+2. **Encuesta ambiental**: Interpretación de datos.
+3. **Especificaciones ICFES**: Instrucciones oficiales.
+4. **Gramática**: Figuras retóricas y sintaxis.
 
 ---
 
 ## 🛠️ Tecnologías
 
-- **Vite + React** - Framework moderno y rápido
-- **CSS con glassmorphism** - Diseño premium
-- **GitHub Pages** - Hosting gratuito y automático
+- **Vite + React**
+- **GitHub Pages** (Despliegue Automático con GitHub Actions)
+- **CSS Modules & Glassmorphism**
 
 ---
 
 ## 📝 Licencia
 
-Este proyecto es de código abierto bajo la [Licencia MIT](LICENSE). Puedes usarlo, modificarlo y distribuirlo libremente.
+Este proyecto es de código abierto bajo la [Licencia MIT](LICENSE).
 
 ---
 
 ## 🤝 Contribuir
 
-¿Encontraste un error o tienes sugerencias? Abre un [issue](https://github.com/nestorfernando3/icfes-trainer-lenguaje/issues) o envía un pull request.
-
----
-
-<p align="center">
-  <strong>¡Buena suerte en tu preparación para el ICFES! 🍀</strong>
-</p>
+Si encuentras errores en esta versión beta, por favor reportalos en el [issue tracker](https://github.com/nestorfernando3/icfes-trainer-beta/issues).
