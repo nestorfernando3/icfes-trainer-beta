@@ -5,12 +5,6 @@ Todos los cambios notables en este proyecto serán documentados en este archivo.
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/),
 y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
-## [1.1.1] - 2026-02-06
-
-### Omitido
-- Corrección en la lógica de puntuación: ahora compara números robustamente para evitar errores de tipo.
-- Mejoras en enunciados y explicaciones de preguntas para mayor claridad pedagógica.
-
 ## [2.0.0-beta] - 2026-02-09
 
 ### Añadido
