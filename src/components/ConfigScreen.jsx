@@ -3,6 +3,23 @@ import { getQuestions, getCategories, getQuestionCounts } from '../lib/questionB
 import ModeSelector from './ModeSelector'
 import CategorySelector from './CategorySelector'
 
+const SUBJECTS = [
+    {
+        id: 'lectura',
+        name: 'Lectura Crítica',
+        icon: '📖',
+        description: 'Comprensión, interpretación y evaluación de textos.',
+        color: '#667eea'
+    },
+    {
+        id: 'matematicas',
+        name: 'Matemáticas',
+        icon: '📐',
+        description: 'Álgebra, geometría, estadística y probabilidad.',
+        color: '#ef4444'
+    }
+]
+
 export default function ConfigScreen({ onStart }) {
     const [loading, setLoading] = useState(true)
     const [categories, setCategories] = useState([])
@@ -10,6 +27,7 @@ export default function ConfigScreen({ onStart }) {
     const [selectedCategory, setSelectedCategory] = useState('all')
     const [limit, setLimit] = useState(20)
     const [mode, setMode] = useState('simulacro')
+    const [selectedSubject, setSelectedSubject] = useState(null)
 
     useEffect(() => {
         const cats = getCategories()
@@ -26,6 +44,16 @@ export default function ConfigScreen({ onStart }) {
         // Shuffle
         let finalQuestions = [...questions].sort(() => Math.random() - 0.5)
 
+        // limit questions to selected category if it's 'Matemáticas'
+        if (selectedSubject === 'matematicas') {
+            finalQuestions = finalQuestions.filter(q => q.topic === 'Matemáticas')
+        } else {
+            // If subject is localized (lectura), filter out math if 'all' is selected
+            if (selectedCategory === 'all') {
+                finalQuestions = finalQuestions.filter(q => q.topic !== 'Matemáticas')
+            }
+        }
+
         // Limit
         if (limit > 0 && finalQuestions.length > limit) {
             finalQuestions = finalQuestions.slice(0, limit)
@@ -34,9 +62,16 @@ export default function ConfigScreen({ onStart }) {
         onStart({
             questions: finalQuestions,
             timelimit: 0,
-            category: selectedCategory === 'all' ? 'Simulacro Completo' : selectedCategory,
+            category: selectedCategory === 'all' ? (selectedSubject === 'matematicas' ? 'Matemáticas General' : 'Simulacro Lectura') : selectedCategory,
             mode: mode
         })
+        setLoading(false)
+    }
+
+    const getFilteredCategories = () => {
+        if (!selectedSubject) return []
+        if (selectedSubject === 'matematicas') return ['Matemáticas']
+        return categories.filter(c => c !== 'Matemáticas')
     }
 
     if (loading) return (
@@ -46,10 +81,61 @@ export default function ConfigScreen({ onStart }) {
         </div>
     )
 
+    if (!selectedSubject) {
+        return (
+            <div className="card fade-in">
+                <h2>Selecciona la Asignatura</h2>
+                <p>Elige el área que deseas practicar hoy.</p>
+                <div className="subject-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1rem', marginTop: '2rem' }}>
+                    {SUBJECTS.map(subject => (
+                        <button
+                            key={subject.id}
+                            className="subject-card"
+                            onClick={() => {
+                                setSelectedSubject(subject.id)
+                                setSelectedCategory(subject.id === 'matematicas' ? 'Matemáticas' : 'all')
+                            }}
+                            style={{
+                                padding: '2rem',
+                                border: `2px solid ${subject.color}`,
+                                borderRadius: '12px',
+                                background: 'var(--bg-card)',
+                                cursor: 'pointer',
+                                transition: 'transform 0.2s',
+                                textAlign: 'left',
+                                display: 'flex',
+                                flexDirection: 'column',
+                                gap: '1rem'
+                            }}
+                        >
+                            <span style={{ fontSize: '2.5rem' }}>{subject.icon}</span>
+                            <div>
+                                <h3 style={{ margin: 0, color: 'var(--text-primary)' }}>{subject.name}</h3>
+                                <p style={{ margin: '0.5rem 0 0', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>{subject.description}</p>
+                            </div>
+                        </button>
+                    ))}
+                </div>
+            </div>
+        )
+    }
+
+    const filteredCategories = getFilteredCategories()
+
     return (
         <div className="card fade-in">
-            <h2>Configura tu Entrenamiento</h2>
-            <p>Selecciona el modo, área de estudio y la cantidad de preguntas para comenzar.</p>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem' }}>
+                <button
+                    onClick={() => setSelectedSubject(null)}
+                    style={{ background: 'none', border: 'none', fontSize: '1.5rem', cursor: 'pointer', padding: 0 }}
+                    title="Volver a asignaturas"
+                >
+                    ⬅
+                </button>
+                <div>
+                    <h2 style={{ margin: 0 }}>Entrenamiento: {SUBJECTS.find(s => s.id === selectedSubject).name}</h2>
+                </div>
+            </div>
 
             {/* Mode Selector */}
             <div style={{ marginBottom: '1.5rem' }}>
@@ -59,18 +145,20 @@ export default function ConfigScreen({ onStart }) {
                 <ModeSelector selectedMode={mode} onSelect={setMode} />
             </div>
 
-            {/* Category Selector - Now with cards! */}
-            <div style={{ marginBottom: '1.5rem' }}>
-                <label style={{ display: 'block', marginBottom: '0.75rem', fontWeight: '600', color: 'var(--text-secondary)' }}>
-                    Área de Estudio
-                </label>
-                <CategorySelector
-                    categories={categories}
-                    questionCounts={questionCounts}
-                    selected={selectedCategory}
-                    onSelect={setSelectedCategory}
-                />
-            </div>
+            {/* Category Selector */}
+            {selectedSubject === 'lectura' && (
+                <div style={{ marginBottom: '1.5rem' }}>
+                    <label style={{ display: 'block', marginBottom: '0.75rem', fontWeight: '600', color: 'var(--text-secondary)' }}>
+                        Área de Estudio
+                    </label>
+                    <CategorySelector
+                        categories={filteredCategories}
+                        questionCounts={questionCounts}
+                        selected={selectedCategory}
+                        onSelect={setSelectedCategory}
+                    />
+                </div>
+            )}
 
             {/* Quantity Selector */}
             <div style={{ marginBottom: '2rem' }}>

@@ -47,7 +47,7 @@ function App() {
 
       <header className="app-header">
         <h1 className="app-title">ICFES Trainer</h1>
-        <p className="app-subtitle">Simulador de Lectura Crítica</p>
+        <p className="app-subtitle">Simulador ICFES Saber 11</p>
       </header>
 
       <main>
