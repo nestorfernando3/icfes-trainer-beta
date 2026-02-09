@@ -1,3 +1,4 @@
-ID,Tema (Topic),Texto / Contexto (Text),Pregunta (Question),Opción A,Opción B,Opción C,Opción D,Respuesta Correcta (1=A, 2=B, 3=C, 4=D),Explicación / Retroalimentación,Fuente
-1,Matemáticas - Álgebra,"Si x + 5 = 10, ¿cuánto vale x?","¿Cuál es el valor de x?",3,5,10,15,2,"Si restamos 5 a ambos lados, x = 5.",Profe Néstor
-2,Lectura Crítica - Textos,"El agua es vital para la vida...","Según el texto, el agua es:",Innecesaria,Vital,Dañina,Opcional,2,"El texto afirma literalmente que es vital.",ICFES 2024
+ID_PREGUNTA,CATEGORIA_O_TEMA,CONTEXTO_O_TEXTO_LECTURA,ENUNCIADO_DE_LA_PREGUNTA,OPCION_A,OPCION_B,OPCION_C,OPCION_D,NUMERO_RESPUESTA_CORRECTA_(1-4),RETROALIMENTACION_PARA_ESTUDIANTE,FUENTE
+1,Matemáticas - Álgebra,"Si x + 5 = 10, determine el valor de x.","¿Cuál es el valor de x?",3,5,10,15,2,"Despejando x: x = 10 - 5 = 5.",Profe Néstor
+2,Lectura Crítica,"El agua es un recurso vital para la supervivencia de todas las especies conocidas...","Según el texto, el agua es considerada:",Innecesaria,Vital,Dañina,Opcional,2,"El texto menciona explícitamente que es un recurso vital.",ICFES 2024
+(EJEMPLO),Matemáticas - Geometría,El área de un cuadrado se calcula como lado por lado.,"Si un cuadrado tiene lado 4, ¿cuál es su área?",8,12,16,20,3,"4 x 4 = 16.",Tu Nombre Aquí

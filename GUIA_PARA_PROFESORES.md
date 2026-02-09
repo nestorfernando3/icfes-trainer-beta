@@ -1,29 +1,35 @@
-# 🍎 Guía para Profesores: Carga de Preguntas
+# 🍎 Guía para Profesores: Crear Banco de Preguntas
 
-Este documento explica cómo utilizar la **Plantilla de Preguntas** para agregar nuevo contenido al simulador ICFES.
+Este documento es una guía paso a paso para diligenciar la **Plantilla de Preguntas (Excel/CSV)** correctamente.
 
-## 📂 Archivo de Plantilla
-Utilice el archivo `PLANTILLA_BANCO_PREGUNTAS.csv` que se encuentra en esta carpeta. Puede abrirlo directamente con **Microsoft Excel** o **Google Sheets**.
+## 📥 1. Descargar la Plantilla
+Utilice el archivo `PLANTILLA_BANCO_PREGUNTAS.csv` adjunto.
+👉 **Tip:** Puede abrir este archivo directamente en **Excel** o **Google Sheets**.
 
-## 📝 Instrucciones de Llenado
+## 📝 2. Llenar la Información (Columna por Columna)
+Cada fila horizontal corresponde a una pregunta completa. A continuación se explica qué debe escribir en cada columna:
 
-Cada fila del archivo representa una pregunta. Por favor, no modifique los títulos de las columnas.
+| Nombre de la Columna (Excel) | ¿Qué debo escribir? | Ejemplo |
+|------------------------------|---------------------|---------|
+| **ID_PREGUNTA** | Un número consecutivo para identificar la pregunta. | `1`, `2`, `3`... |
+| **CATEGORIA_O_TEMA** | El tema principal. Si es Matemáticas, especifique el subtema. | `Matemáticas - Álgebra`<br>`Lectura Crítica` |
+| **CONTEXTO_O_TEXTO_LECTURA** | El párrafo, problema o situación que el estudiante debe leer antes. | `Juan tiene 5 manzanas...` |
+| **ENUNCIADO_DE_LA_PREGUNTA** | La pregunta concreta que se le hace al estudiante. | `¿Cuántas manzanas le quedan?` |
+| **OPCION_A** | Texto de la primera opción de respuesta. | `2 manzanas` |
+| **OPCION_B** | Texto de la segunda opción. | `3 manzanas` |
+| **OPCION_C** | Texto de la tercera opción. | `4 manzanas` |
+| **OPCION_D** | Texto de la cuarta opción. | `5 manzanas` |
+| **NUMERO_RESPUESTA_CORRECTA_(1-4)** | **Solo el número** (1, 2, 3 o 4) que corresponde a la opción correcta.<br>🚫 *No escriba letras ni texto.* | `2` (Significa que la B es la correcta) |
+| **RETROALIMENTACION_PARA_ESTUDIANTE** | La explicación de **por qué** esa es la respuesta correcta. Se mostrará al estudiante al finalizar. | `Porque 5 - 2 = 3.` |
+| **FUENTE** | ¿De dónde salió la pregunta? (Su nombre, libro, simulacro, etc.) | `Profe Néstor`, `ICFES 2024` |
 
-| Columna | Descripción | Ejemplo |
-|---------|-------------|---------|
-| **ID** | Número único para identificar la pregunta. | `101` |
-| **Tema** | Áreas del conocimiento. <br>Use: `Matemáticas - Álgebra`, `Matemáticas - Geometría`, `Lectura Crítica`, etc. | `Matemáticas - Estadística` |
-| **Texto / Contexto** | El párrafo o situación que el estudiante debe leer antes de responder. | `En una encuesta de 100 personas...` |
-| **Pregunta** | El enunciado específico de la pregunta. | `¿Cuál es el promedio de edad?` |
-| **Opción A - D** | Las 4 posibles respuestas. | `20 años` |
-| **Respuesta Correcta** | Número que indica la opción correcta: <br>**1** = A<br>**2** = B<br>**3** = C<br>**4** = D | `3` (Indica que la C es correcta) |
-| **Explicación** | Justificación pedagógica que aparecerá si el estudiante falla o acierta. | `Se suma el total y se divide por...` |
-| **Fuente** | Origen de la pregunta (Simulacro, Autoría propia, ICFES 202x). | `Simulacro 2025` |
+---
 
-## ⚠️ Notas Importantes
-1. **No deje filas vacías** entre preguntas.
-2. **Respuesta Correcta**: Asegúrese de usar solo los números 1, 2, 3 o 4. No escriba la letra "A" o el texto de la respuesta.
-3. **Guardado**: Al terminar, guarde el archivo manteniendo el formato **CSV (Delimitado por comas)** para facilitar su importación a la App.
+## ✅ 3. Recomendaciones Finales
 
-## 🚀 ¿Cómo subir el archivo?
-Envíe el archivo actualizado al administrador del sistema (Desarrollador) para que lo integre en la siguiente actualización de la plataforma.
+*   **No cambie los títulos de la primera fila.** El sistema los necesita tal cual.
+*   **No deje filas vacías** en medio de dos preguntas.
+*   **Guardar:** Al finalizar, guarde el archivo manteniendo el formato **CSV (Delimitado por comas)**. Si Excel le pregunta si desea mantener el formato, diga que **SÍ**.
+
+## 🚀 4. Envío
+Una vez tenga el archivo listo, envíelo al encargado de la plataforma para que las preguntas sean cargadas automáticamente.
