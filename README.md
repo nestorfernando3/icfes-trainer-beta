@@ -13,29 +13,52 @@ Accede desde cualquier dispositivo con navegador. No requiere instalación.
 
 ---
 
+## 🚀 Versión Beta: Matemáticas + Lectura Crítica
+
+Esta es una versión **BETA** que incluye un nuevo banco de preguntas de matemáticas y una interfaz para seleccionar entre asignaturas.
+
+### ✨ Novedades
+- **Selección de Asignatura**: Elige entre **Lectura Crítica** y **Matemáticas**.
+- **Banco de Matemáticas**: 20 preguntas nuevas cubriendo Álgebra, Geometría, Estadística y Probabilidad.
+- **Filtrado Inteligente**: Acceso directo a temas específicos según la asignatura.
+
+### 🌐 Probar Beta
+Accede a la versión Beta desplegada aquí:
+**👉 [https://nestorfernando3.github.io/icfes-trainer-beta/](https://nestorfernando3.github.io/icfes-trainer-beta/)**
+
+Repositorio Beta: [nestorfernando3/icfes-trainer-beta](https://github.com/nestorfernando3/icfes-trainer-beta)
+
+---
+
 ## 📖 ¿Qué es esto?
 
-**ICFES Trainer** es un simulador web gratuito para practicar la prueba de **Lectura Crítica** del examen Saber 11 del ICFES (Colombia).
+**ICFES Trainer** es un simulador web gratuito para practicar las pruebas de **Lectura Crítica** y **Matemáticas** del examen Saber 11 del ICFES (Colombia).
 
 ### ✨ Características principales
 
 | Característica | Descripción |
 |----------------|-------------|
-| **100 preguntas** | Banco completo de preguntas tipo ICFES |
-| **4 categorías** | Textos expositivos, encuestas, especificaciones ICFES, gramática |
-| **Aprendizaje activo** | Cada pregunta incluye definiciones y contexto educativo |
-| **Retroalimentación inmediata** | Explicación de cada respuesta correcta |
-| **Sin instalación** | Funciona directamente en el navegador |
+| **120+ preguntas** | Banco combinado de Lectura y Matemáticas |
+| **2 Asignaturas** | Práctica focalizada por área |
+| **Aprendizaje activo** | Retroalimentación y justificación paso a paso |
 | **Modo oscuro** | Interfaz moderna con glassmorphism |
+| **Sin instalación** | Funciona directamente en el navegador |
 
 ---
 
 ## 📚 Categorías de Preguntas
 
-1. **Lectura crítica: textos expositivos** - Análisis de textos sobre medio ambiente y sociedad
-2. **Lectura crítica: encuesta ambiental** - Interpretación de datos y estadísticas
-3. **Comprensión de especificaciones ICFES** - Entender las instrucciones oficiales
-4. **Conocimientos lingüísticos y gramaticales** - Figuras retóricas, ortografía, sintaxis
+### 📖 Lectura Crítica
+1. **Textos expositivos** - Análisis socio-ambiental
+2. **Encuesta ambiental** - Interpretación de datos
+3. **Especificaciones ICFES** - Instrucciones oficiales
+4. **Gramática** - Figuras retóricas y sintaxis
+
+### 📐 Matemáticas (¡Nuevo!)
+1. **Álgebra** - Ecuaciones y funciones
+2. **Geometría** - Áreas, volúmenes y teoremas
+3. **Estadística** - Promedios y gráficos
+4. **Probabilidad** - Cálculo de eventos simples y compuestos
 
 ---
 
