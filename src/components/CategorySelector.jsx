@@ -8,6 +8,13 @@ const categoryMeta = {
     'Figuras Retóricas': { icon: '✨', color: '#ec4899' },
     'Gramática y Ortografía': { icon: '📝', color: '#8b5cf6' },
     'Matemáticas': { icon: '📐', color: '#ef4444' },
+    'Matemáticas - Álgebra': { icon: '✖️', color: '#f59e0b' },
+    'Matemáticas - Geometría': { icon: '📐', color: '#10b981' },
+    'Matemáticas - Probabilidad': { icon: '🎲', color: '#8b5cf6' },
+    'Matemáticas - Estadística': { icon: '📊', color: '#3b82f6' },
+    'Matemáticas - Cálculo': { icon: '📈', color: '#ef4444' },
+    'Matemáticas - Razonamiento': { icon: '🧠', color: '#ec4899' },
+    'Matemáticas - Razones': { icon: '➗', color: '#f97316' },
     'default': { icon: '📚', color: '#06b6d4' }
 }
 

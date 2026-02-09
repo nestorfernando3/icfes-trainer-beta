@@ -44,13 +44,17 @@ export default function ConfigScreen({ onStart }) {
         // Shuffle
         let finalQuestions = [...questions].sort(() => Math.random() - 0.5)
 
-        // limit questions to selected category if it's 'Matemáticas'
+        // If subject is math, check if we need to filter further (if not 'all')
         if (selectedSubject === 'matematicas') {
-            finalQuestions = finalQuestions.filter(q => q.topic === 'Matemáticas')
-        } else {
-            // If subject is localized (lectura), filter out math if 'all' is selected
             if (selectedCategory === 'all') {
-                finalQuestions = finalQuestions.filter(q => q.topic !== 'Matemáticas')
+                finalQuestions = finalQuestions.filter(q => q.topic.startsWith('Matemáticas'))
+            } else {
+                // already filtered by getQuestions(selectedCategory)
+            }
+        } else if (selectedSubject === 'lectura') {
+            // If subject is localized (lectura), exclude math if 'all' is selected
+            if (selectedCategory === 'all') {
+                finalQuestions = finalQuestions.filter(q => !q.topic.startsWith('Matemáticas'))
             }
         }
 
@@ -70,8 +74,12 @@ export default function ConfigScreen({ onStart }) {
 
     const getFilteredCategories = () => {
         if (!selectedSubject) return []
-        if (selectedSubject === 'matematicas') return ['Matemáticas']
-        return categories.filter(c => c !== 'Matemáticas')
+        if (selectedSubject === 'matematicas') {
+            // Return only categories starting with 'Matemáticas'
+            return categories.filter(c => c.startsWith('Matemáticas'))
+        }
+        // Return only categories NOT starting with 'Matemáticas'
+        return categories.filter(c => !c.startsWith('Matemáticas'))
     }
 
     if (loading) return (
@@ -146,19 +154,17 @@ export default function ConfigScreen({ onStart }) {
             </div>
 
             {/* Category Selector */}
-            {selectedSubject === 'lectura' && (
-                <div style={{ marginBottom: '1.5rem' }}>
-                    <label style={{ display: 'block', marginBottom: '0.75rem', fontWeight: '600', color: 'var(--text-secondary)' }}>
-                        Área de Estudio
-                    </label>
-                    <CategorySelector
-                        categories={filteredCategories}
-                        questionCounts={questionCounts}
-                        selected={selectedCategory}
-                        onSelect={setSelectedCategory}
-                    />
-                </div>
-            )}
+            <div style={{ marginBottom: '1.5rem' }}>
+                <label style={{ display: 'block', marginBottom: '0.75rem', fontWeight: '600', color: 'var(--text-secondary)' }}>
+                    Área de Estudio
+                </label>
+                <CategorySelector
+                    categories={filteredCategories}
+                    questionCounts={questionCounts}
+                    selected={selectedCategory}
+                    onSelect={setSelectedCategory}
+                />
+            </div>
 
             {/* Quantity Selector */}
             <div style={{ marginBottom: '2rem' }}>

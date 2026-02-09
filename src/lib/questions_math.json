@@ -1,7 +1,7 @@
 [
     {
         "id": 101,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Álgebra",
         "text": "En una tienda de ropa, una camisa tiene un precio de lista de $80.000. Durante una promoción, se ofrece un descuento del 25%.",
         "question": "¿Cuál es el precio final que debe pagar un cliente por la camisa?",
         "options": [
@@ -16,7 +16,7 @@
     },
     {
         "id": 102,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Geometría",
         "text": "Un tanque de agua cilíndrico tiene un radio de base de 3 metros y una altura de 5 metros.",
         "question": "Si el volumen de un cilindro se calcula como V = π·r²·h, ¿cuál es el volumen del tanque en metros cúbicos?",
         "options": [
@@ -31,7 +31,7 @@
     },
     {
         "id": 103,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Probabilidad",
         "text": "En una caja hay 4 bolas rojas, 3 bolas azules y 3 bolas verdes.",
         "question": "Si se extrae una bola al azar, ¿cuál es la probabilidad de que sea azul?",
         "options": [
@@ -46,7 +46,7 @@
     },
     {
         "id": 104,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Estadística",
         "text": "Las edades de un grupo de 5 amigos son: 18, 20, 18, 22, 22.",
         "question": "¿Cuál es el promedio (media aritmética) de las edades?",
         "options": [
@@ -61,7 +61,7 @@
     },
     {
         "id": 105,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Álgebra",
         "text": "Un plan de telefonía móvil cobra un cargo fijo mensual de $20.000 más $200 por cada minuto consumido.",
         "question": "Si C es el costo total y x es la cantidad de minutos consumidos, ¿cuál de las siguientes ecuaciones modela la situación?",
         "options": [
@@ -76,7 +76,7 @@
     },
     {
         "id": 106,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Geometría",
         "text": "Se tiene un triángulo rectángulo cuyos catetos miden 6 cm y 8 cm.",
         "question": "¿Cuál es la medida de la hipotenusa?",
         "options": [
@@ -91,7 +91,7 @@
     },
     {
         "id": 107,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Razones",
         "text": "Un automóvil recorre 300 km en 4 horas manteniendo una velocidad constante.",
         "question": "¿Cuántos kilómetros recorrerá en 7 horas a la misma velocidad?",
         "options": [
@@ -106,7 +106,7 @@
     },
     {
         "id": 108,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Razonamiento",
         "text": "Analice la siguiente serie numérica: 3, 6, 12, 24, ...",
         "question": "¿Cuál es el siguiente número en la serie?",
         "options": [
@@ -121,7 +121,7 @@
     },
     {
         "id": 109,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Cálculo",
         "text": "Dada la función f(x) = x² - 4x + 3.",
         "question": "¿Cuál es el valor de f(2)?",
         "options": [
@@ -136,7 +136,7 @@
     },
     {
         "id": 110,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Estadística",
         "text": "En una encuesta sobre la fruta favorita de 100 personas, el 40% eligió manzana, el 30% banano y el resto naranja.",
         "question": "¿Cuántas personas eligieron naranja?",
         "options": [
@@ -151,7 +151,7 @@
     },
     {
         "id": 111,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Probabilidad",
         "text": "En una clase de 30 estudiantes, el 60% son mujeres. Si se eligen 2 estudiantes al azar sin reposición para representar al curso.",
         "question": "¿Cuál es la probabilidad de que ambos sean mujeres?",
         "options": [
@@ -166,7 +166,7 @@
     },
     {
         "id": 112,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Geometría",
         "text": "Un edificio proyecta una sombra de 10 metros cuando el ángulo de elevación del sol es de 45°.",
         "question": "¿Cuál es la altura del edificio?",
         "options": [
@@ -181,7 +181,7 @@
     },
     {
         "id": 113,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Álgebra",
         "text": "Se define la operación ♦ entre dos números reales a y b como a ♦ b = 2a - b.",
         "question": "¿Cuál es el valor de 3 ♦ (4 ♦ 2)?",
         "options": [
@@ -196,7 +196,7 @@
     },
     {
         "id": 114,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Cálculo",
         "text": "Un tanque contiene 100 litros de agua con 5 kg de sal disuelta. Se empieza a bombear agua pura al tanque a razón de 10 litros por minuto, y la mezcla (homogénea) sale del tanque a la misma velocidad.",
         "question": "¿Qué le sucede a la concentración de sal en el tanque a medida que pasa el tiempo?",
         "options": [
@@ -211,7 +211,7 @@
     },
     {
         "id": 115,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Geometría",
         "text": "Si el lado de un cuadrado se aumenta en un 10%.",
         "question": "¿En qué porcentaje aumenta su área?",
         "options": [
@@ -226,7 +226,7 @@
     },
     {
         "id": 116,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Probabilidad",
         "text": "En una rifa de 100 boletas numeradas del 00 al 99, Ana compró todas las boletas que terminan en 5.",
         "question": "¿Cuál es la probabilidad de que Ana gane la rifa?",
         "options": [
@@ -241,7 +241,7 @@
     },
     {
         "id": 117,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Geometría",
         "text": "Para construir una cerca alrededor de un terreno rectangular de 20 metros de largo y 15 metros de ancho, se deben colocar postes cada 5 metros.",
         "question": "¿Cuántos postes se necesitan en total?",
         "options": [
@@ -256,7 +256,7 @@
     },
     {
         "id": 118,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Álgebra",
         "text": "Una bacteria se reproduce por bipartición cada 20 minutos (se duplica). Si inicialmente hay 1 bacteria.",
         "question": "¿Cuántas bacterias habrá después de 2 horas?",
         "options": [
@@ -271,7 +271,7 @@
     },
     {
         "id": 119,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Álgebra",
         "text": "La suma de tres números enteros consecutivos es 45.",
         "question": "¿Cuál es el número mayor?",
         "options": [
@@ -286,7 +286,7 @@
     },
     {
         "id": 120,
-        "topic": "Matemáticas",
+        "topic": "Matemáticas - Geometría",
         "text": "En un sistema de coordenadas cartesianas, una recta pasa por los puntos (0, 2) y (4, 0).",
         "question": "¿Cuál es la pendiente de la recta?",
         "options": [
