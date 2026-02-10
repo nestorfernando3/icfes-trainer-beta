@@ -25,6 +25,7 @@ Esta es la **Versión Beta (2.0.0)** de **ICFES Trainer**. A diferencia de la ve
 | **Selección de Asignatura** | Menú inicial para elegir entre **Lectura Crítica** y **Matemáticas** |
 | **Banco de Matemáticas** | 20 preguntas nuevas de Álgebra, Geometría, Estadística y Probabilidad |
 | **Menús Diferenciados** | Filtros específicos por tema para cada asignatura |
+| **Visuales SVG** | Gráficos vectoriales interactivos para geometría y funciones |
 | **Interfaz Renovada** | Nuevas tarjetas visuales y categorización mejorada |
 
 ---
