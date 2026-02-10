@@ -217,6 +217,158 @@ export default function MathFigure({ figureId }) {
             </svg>
         )
     }
+
+    // Internet Users Table (q123)
+    if (figureId === 'q123_generic') {
+        return (
+            <svg viewBox="0 0 400 200" style={style}>
+                <title>Usuarios de Internet (Millones)</title>
+                <rect x="10" y="10" width="380" height="180" rx="5" fill="#1e293b" />
+                <text x="200" y="30" style={{ ...textStyle, textAnchor: 'middle', fontWeight: 'bold' }}>Usuarios de Internet (2000 vs 2012)</text>
+
+                {/* Headers */}
+                <text x="50" y="55" style={{ ...textStyle, fontSize: '10px', fill: '#94a3b8' }}>Región</text>
+                <text x="180" y="55" style={{ ...textStyle, fontSize: '10px', fill: '#94a3b8' }}>2000</text>
+                <text x="280" y="55" style={{ ...textStyle, fontSize: '10px', fill: '#94a3b8' }}>2012</text>
+                <line x1="20" y1="60" x2="380" y2="60" style={gridStyle} />
+
+                {/* Rows */}
+                <g transform="translate(0, 25)">
+                    <text x="50" y="60" style={textStyle}>Asia</text> <text x="180" y="60" style={textStyle}>114 M</text> <text x="280" y="60" style={textStyle}>1,076 M</text>
+                    <text x="50" y="85" style={textStyle}>Europa</text> <text x="180" y="85" style={textStyle}>105 M</text> <text x="280" y="85" style={textStyle}>518 M</text>
+                    <text x="50" y="110" style={textStyle}>África</text> <text x="180" y="110" style={textStyle}>4.5 M</text> <text x="280" y="110" style={textStyle}>167 M</text>
+                    <text x="50" y="135" style={textStyle}>Oceanía</text> <text x="180" y="135" style={textStyle}>7.6 M</text> <text x="280" y="135" style={textStyle}>24.3 M</text>
+                </g>
+            </svg>
+        )
+    }
+
+    // Urns Visualization (q128)
+    if (figureId === 'q128_generic') {
+        return (
+            <svg viewBox="0 0 300 120" style={style}>
+                <title>Urnas de la Rifa</title>
+                {/* Urn 1 */}
+                <rect x="30" y="40" width="60" height="70" rx="5" style={{ fill: 'none', stroke: '#f59e0b', strokeWidth: 2 }} />
+                <text x="60" y="30" style={{ ...textStyle, textAnchor: 'middle' }}>Urna 1</text>
+                <circle cx="60" cy="75" r="15" fill="#f59e0b" opacity="0.2" />
+                <text x="60" y="80" style={{ ...textStyle, textAnchor: 'middle', fontSize: '18px' }}>0-9</text>
+
+                {/* Urn 2 */}
+                <rect x="120" y="40" width="60" height="70" rx="5" style={{ fill: 'none', stroke: '#10b981', strokeWidth: 2 }} />
+                <text x="150" y="30" style={{ ...textStyle, textAnchor: 'middle' }}>Urna 2</text>
+                <circle cx="150" cy="75" r="15" fill="#10b981" opacity="0.2" />
+                <text x="150" y="80" style={{ ...textStyle, textAnchor: 'middle', fontSize: '18px' }}>0-9</text>
+
+                {/* Urn 3 */}
+                <rect x="210" y="40" width="60" height="70" rx="5" style={{ fill: 'none', stroke: '#3b82f6', strokeWidth: 2 }} />
+                <text x="240" y="30" style={{ ...textStyle, textAnchor: 'middle' }}>Urna 3</text>
+                <circle cx="240" cy="75" r="15" fill="#3b82f6" opacity="0.2" />
+                <text x="240" y="80" style={{ ...textStyle, textAnchor: 'middle', fontSize: '18px' }}>0-9</text>
+            </svg>
+        )
+    }
+
+    // Number Representation (q133)
+    if (figureId === 'q133_generic') {
+        return (
+            <svg viewBox="0 0 300 100" style={style}>
+                <text x="150" y="40" style={{ ...textStyle, textAnchor: 'middle', fontSize: '12px', fill: '#94a3b8' }}>Número Decimal</text>
+                <text x="150" y="70" style={{ ...textStyle, textAnchor: 'middle', fontSize: '36px', fontWeight: 'bold' }}>3,75</text>
+                <text x="220" y="55" style={{ ...textStyle, fontSize: '12px', fill: '#ef4444' }}>¿Fracción?</text>
+                <path d="M 190 60 Q 210 60 215 55" stroke="#ef4444" fill="none" markerEnd="url(#arrow)" />
+            </svg>
+        )
+    }
+
+    // Bacteria Growth Graph (q134 & q135)
+    if (figureId === 'q134_generic' || figureId === 'q135_generic') {
+        return (
+            <svg viewBox="0 0 300 200" style={style}>
+                <title>Crecimiento Bacteriano</title>
+                {/* Axes */}
+                <line x1="40" y1="180" x2="280" y2="180" style={axisStyle} />
+                <line x1="40" y1="180" x2="40" y2="20" style={axisStyle} />
+                <text x="280" y="195" style={{ ...textStyle, fontSize: '10px' }}>Tiempo (min)</text>
+                <text x="10" y="30" style={{ ...textStyle, fontSize: '10px' }}>Bact.</text>
+
+                {/* Curve y = 2^(t/20) approx */}
+                {/* t=0, y=10. t=20, y=20. t=40, y=40. t=60, y=80. t=80, y=160. Scale: y/2 */}
+                <path d="M 40 175 Q 100 170 160 140 T 260 20" style={{ fill: 'none', stroke: '#10b981', strokeWidth: 2 }} />
+
+                {/* Points */}
+                <circle cx="40" cy="175" r="3" fill="#fff" />
+                <text x="25" y="175" style={{ ...textStyle, fontSize: '8px' }}>1</text>
+
+                <circle cx="95" cy="165" r="3" fill="#fff" />
+                <text x="95" y="180" style={{ ...textStyle, fontSize: '8px' }}>t=20</text>
+
+                <circle cx="150" cy="145" r="3" fill="#fff" />
+                <text x="150" y="160" style={{ ...textStyle, fontSize: '8px' }}>t=40</text>
+            </svg>
+        )
+    }
+
+    // Archery Target (q137)
+    if (figureId === 'q137_generic') {
+        return (
+            <svg viewBox="0 0 200 200" style={style}>
+                <title>Diana de Tiro</title>
+                {/* 5 visible rings for simplicity */}
+                <circle cx="100" cy="100" r="90" fill="#fff" stroke="#000" />
+                <circle cx="100" cy="100" r="72" fill="#000" stroke="#fff" />
+                <circle cx="100" cy="100" r="54" fill="#3b82f6" stroke="#fff" />
+                <circle cx="100" cy="100" r="36" fill="#ef4444" stroke="#fff" />
+                <circle cx="100" cy="100" r="18" fill="#f59e0b" stroke="#fff" />
+            </svg>
+        )
+    }
+
+    // Archery Scoreboard (q138)
+    if (figureId === 'q138_generic') {
+        return (
+            <svg viewBox="0 0 400 150" style={style}>
+                <title>Puntajes Tiro al Arco</title>
+                <rect x="0" y="0" width="400" height="150" rx="8" fill="#1e293b" />
+
+                <text x="20" y="30" style={{ ...textStyle, fontWeight: 'bold' }}>Resultados:</text>
+
+                {/* Martha */}
+                <text x="20" y="60" style={{ ...textStyle, fill: '#f59e0b' }}>Martha:</text>
+                <text x="90" y="60" style={textStyle}>2 flechas en 6, 1 en 8</text>
+
+                {/* Carolina */}
+                <text x="20" y="90" style={{ ...textStyle, fill: '#10b981' }}>Carolina:</text>
+                <text x="90" y="90" style={textStyle}>1 en 10, 1 en 5, 1 en 2</text>
+
+                {/* Andrea */}
+                <text x="20" y="120" style={{ ...textStyle, fill: '#3b82f6' }}>Andrea:</text>
+                <text x="90" y="120" style={textStyle}>3 flechas en 7</text>
+            </svg>
+        )
+    }
+
+    // Olympics Table (q139)
+    if (figureId === 'q139_generic') {
+        return (
+            <svg viewBox="0 0 400 180" style={style}>
+                <title>Medallería Histórica</title>
+                <rect x="0" y="0" width="400" height="180" rx="8" fill="#0f172a" />
+                <text x="200" y="25" style={{ ...textStyle, textAnchor: 'middle', fontWeight: 'bold' }}>Podios Históricos</text>
+
+                <line x1="20" y1="40" x2="380" y2="40" style={gridStyle} />
+                <text x="40" y="55" style={{ ...textStyle, fontSize: '11px', fill: '#64748b' }}>País</text>
+                <text x="250" y="55" style={{ ...textStyle, fontSize: '11px', fill: '#64748b' }}>Total Podios</text>
+
+                <g transform="translate(0, 10)">
+                    <text x="40" y="80" style={textStyle}>URSS</text> <rect x="250" y="70" width="100" height="10" fill="#ef4444" /> <text x="360" y="80" style={{ ...textStyle, fontSize: '10px' }}>18</text>
+                    <text x="40" y="100" style={textStyle}>EE. UU.</text> <rect x="250" y="90" width="80" height="10" fill="#3b82f6" /> <text x="340" y="100" style={{ ...textStyle, fontSize: '10px' }}>15</text>
+                    <text x="40" y="120" style={textStyle}>México</text> <rect x="250" y="110" width="80" height="10" fill="#10b981" /> <text x="340" y="120" style={{ ...textStyle, fontSize: '10px' }}>15</text>
+                    <text x="40" y="140" style={textStyle}>Corea del Sur</text> <rect x="250" y="130" width="60" height="10" fill="#f59e0b" /> <text x="320" y="140" style={{ ...textStyle, fontSize: '10px' }}>12</text>
+                </g>
+            </svg>
+        )
+    }
     return (
         <div style={style}>
             <div style={{ padding: '2rem', textAlign: 'center', color: 'var(--text-secondary)' }}>
