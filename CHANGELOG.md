@@ -18,7 +18,8 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
   - Razonamiento
 - **Nuevas Tarjetas Visuales:** Iconos y colores distintivos para cada subtema matemático.
 - **Flujo de Usuario Mejorado:** La selección de preguntas se adapta dinámicamente según la asignatura escogida.
-- **Nuevas Preguntas (PDF):** Se integraron 20 preguntas matemáticas extraídas del documento *mo.-saber-grado-11.pdf* (con marcadores de imagen pendientes).
+- **Nuevas Preguntas (PDF):** Se integraron 20 preguntas matemáticas extraídas del documento *mo.-saber-grado-11.pdf*.
+- **Visuales SVG:** Implementación de gráficos vectoriales recreados (no imágenes estáticas) para preguntas de geometría, álgebra y estadística, garantizando alta calidad en cualquier dispositivo.
 
 ## [1.1.1] - 2026-02-06
 
