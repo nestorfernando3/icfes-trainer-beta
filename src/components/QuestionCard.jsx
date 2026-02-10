@@ -47,7 +47,8 @@ export default function QuestionCard({
     const letters = ['A', 'B', 'C', 'D']
     const isCorrect = selected === question.correctAnswer
     const hasAnswered = previousAnswer !== undefined
-    const showPassage = mode !== 'rapido' || question.text.length < 300
+    const textContent = question.text || question.context
+    const showPassage = textContent && (mode !== 'rapido' || textContent.length < 300)
 
     return (
         <div className="card fade-in">
@@ -59,7 +60,7 @@ export default function QuestionCard({
             {/* Text Passage */}
             {showPassage && (
                 <div className="text-passage">
-                    {question.text}
+                    {textContent}
                 </div>
             )}
 

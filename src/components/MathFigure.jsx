@@ -179,7 +179,44 @@ export default function MathFigure({ figureId }) {
         )
     }
 
-    // Generic Fallback for valid ID but no specific implementation
+    // Unit Circle with Reference Angle (q124)
+    if (figureId === 'q124') {
+        return (
+            <svg viewBox="0 0 200 200" style={style}>
+                <title>Círculo Unitario y Ángulo de Referencia</title>
+                {/* Axes */}
+                <line x1="100" y1="10" x2="100" y2="190" style={axisStyle} />
+                <line x1="10" y1="100" x2="190" y2="100" style={axisStyle} />
+                <text x="180" y="95" style={{ ...textStyle, fontSize: '10px' }}>x</text>
+                <text x="105" y="20" style={{ ...textStyle, fontSize: '10px' }}>y</text>
+
+                {/* Circles */}
+                <circle cx="100" cy="100" r="60" style={{ fill: 'none', stroke: 'rgba(255,255,255,0.3)', strokeWidth: '1' }} />
+
+                {/* Angle Theta (e.g. 130 deg) */}
+                {/* 130 deg -> x = 60*cos(130), y = 60*sin(130). 130 is 2nd quad. */}
+                {/* cos(130) ~ -0.64 -> x ~ -38. sin(130) ~ 0.76 -> y ~ 45. (svg y is flipped) */}
+                {/* Center (100, 100). Point (~62, ~55) */}
+                <line x1="100" y1="100" x2="62" y2="55" style={strokeStyle} />
+                <circle cx="62" cy="55" r="3" fill="var(--text-primary)" />
+                <text x="50" y="50" style={textStyle}>P(x,y)</text>
+
+                {/* Reference Angle arc */}
+                <path d="M 80,100 A 20,20 0 0 1 88,85" style={{ fill: 'none', stroke: '#ef4444' }} />
+                <text x="70" y="90" style={{ fill: '#ef4444', fontSize: '10px' }}>θr</text>
+
+                {/* Full Angle arc */}
+                <path d="M 120,100 A 20,20 0 0 0 88,85" style={{ fill: 'none', stroke: '#3b82f6', strokeDasharray: '2,2' }} />
+                <text x="110" y="80" style={{ fill: '#3b82f6', fontSize: '10px' }}>θ</text>
+
+                {/* Quadrants */}
+                <text x="150" y="50" style={{ fill: 'rgba(255,255,255,0.2)' }}>I</text>
+                <text x="50" y="50" style={{ fill: 'rgba(255,255,255,0.2)' }}>II</text>
+                <text x="50" y="150" style={{ fill: 'rgba(255,255,255,0.2)' }}>III</text>
+                <text x="150" y="150" style={{ fill: 'rgba(255,255,255,0.2)' }}>IV</text>
+            </svg>
+        )
+    }
     return (
         <div style={style}>
             <div style={{ padding: '2rem', textAlign: 'center', color: 'var(--text-secondary)' }}>
