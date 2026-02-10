@@ -359,6 +359,7 @@
         "id": 125,
         "topic": "Matemáticas - Geometría",
         "question": "El profesor presenta a sus estudiantes el siguiente desarrollo plano de un prisma de base irregular. [Requiere Imagen]",
+        "figure": "q105",
         "options": [
             "Opción A [Ver Imagen]",
             "Opción B [Ver Imagen]",
@@ -373,6 +374,7 @@
         "id": 126,
         "topic": "Matemáticas - Álgebra",
         "question": "De las siguientes relaciones del conjunto M en el conjunto N, la que NO corresponde a una función es: [Requiere Imagen]",
+        "figure": "q106",
         "options": [
             "Gráfica A",
             "Gráfica B",
@@ -387,6 +389,7 @@
         "id": 127,
         "topic": "Matemáticas - Álgebra",
         "question": "¿Cuál es la gráfica de la función f(x) = 3/2 x + 3? [Requiere Imagen]",
+        "figure": "q107",
         "options": [
             "Gráfica A",
             "Gráfica B",
@@ -415,6 +418,7 @@
         "id": 129,
         "topic": "Matemáticas - Álgebra",
         "question": "De las siguientes gráficas, la que NO corresponde a una función es: [Requiere Imagen]",
+        "figure": "q109",
         "options": [
             "Gráfica A",
             "Gráfica B",
@@ -429,6 +433,7 @@
         "id": 130,
         "topic": "Matemáticas - Álgebra",
         "question": "Los números reales que corresponden a los puntos P, Q, R, S que se encuentran representados en la recta son respectivamente: [Requiere Imagen de Recta]",
+        "figure": "q110",
         "options": [
             "-2/3, 5, 2.5, 2/6",
             "-1/3, 3, 2.8, 10/3",
@@ -443,6 +448,7 @@
         "id": 131,
         "topic": "Matemáticas - Geometría",
         "question": "La posición en la que NO se debe colocar el aspersor (A), porque no alcanza a regar toda la zona verde es: [Requiere Imagen]",
+        "figure": "q111",
         "options": [
             "10 m A",
             "8 m A",
@@ -513,6 +519,7 @@
         "id": 136,
         "topic": "Matemáticas - Geometría",
         "question": "Un cono es cortado por un plano paralelo a la base. La figura que se obtiene después del corte es: [Requiere Imagen de opciones]",
+        "figure": "q116",
         "options": [
             "Opción A",
             "Opción B",
@@ -569,6 +576,7 @@
         "id": 140,
         "topic": "Matemáticas - Estadística",
         "question": "La gráfica que representa la información presentada en la tabla es: [Requiere Imagen]",
+        "figure": "q120",
         "options": [
             "Gráfica A",
             "Gráfica B",

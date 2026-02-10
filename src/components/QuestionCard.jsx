@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import MathFigure from './MathFigure'
 
 export default function QuestionCard({
     question,
@@ -65,6 +66,11 @@ export default function QuestionCard({
             {/* Question */}
             {question.question && (
                 <p className="question-text">{question.question}</p>
+            )}
+
+            {/* Math Figure (SVG) */}
+            {question.figure && (
+                <MathFigure figureId={question.figure} />
             )}
 
             {/* Options */}
