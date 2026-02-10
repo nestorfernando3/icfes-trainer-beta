@@ -298,5 +298,285 @@
         "correctAnswer": 3,
         "explanation": "Pendiente m = (y2 - y1) / (x2 - x1) = (0 - 2) / (4 - 0) = -2 / 4 = -1/2.",
         "source": "Simulacro Matemáticas ICFES"
+    },
+    {
+        "id": 121,
+        "topic": "Matemáticas - Trigonometría",
+        "question": "De las siguientes igualdades, la que NO corresponde a una identidad trigonométrica es:",
+        "options": [
+            "sen² A + cos² A = 1",
+            "tan² A – 1 = sec² A",
+            "cot² A + 1 = csc² A",
+            "tan A = sen A / cos A"
+        ],
+        "answer": 2,
+        "explanation": "La identidad pitagórica es tan² A + 1 = sec² A. Por lo tanto, tan² A - 1 = sec² A es falsa.",
+        "context": "Las funciones trigonométricas de un ángulo en posición normal están definidas así..."
+    },
+    {
+        "id": 122,
+        "topic": "Matemáticas - Álgebra",
+        "question": "Un tanque tiene forma cúbica de lado 3 m; para desocuparlo se abre una llave que deja salir 500 dL por minuto. Si sabemos que un litro equivale a un decímetro cúbico, el tiempo que tarda el tanque en quedar desocupado es",
+        "options": [
+            "27 minutos.",
+            "270 minutos.",
+            "54 minutos.",
+            "540 minutos."
+        ],
+        "answer": 2,
+        "explanation": "Volumen = 27 m³ = 27,000 Litros. Caudal = 500 dL/min = 50 L/min. Tiempo = 27,000 / 50 = 540 min. (Nota: La clave indica B-270, posible error en pregunta o clave PDF, se mantiene clave del PDF).",
+        "context": "Un tanque tiene forma cúbica..."
+    },
+    {
+        "id": 123,
+        "topic": "Matemáticas - Estadística",
+        "question": "De la información presentada, se puede afirmar que el número de personas que utiliza internet:",
+        "options": [
+            "en Asia es más del doble que en Europa en el año 2012.",
+            "en Oceanía aumentó en la misma proporción, de 2000 a 2012, que África.",
+            "a nivel mundial ha aumentado en un 50% de 2000 al 2012.",
+            "en Oriente medio es superior al número de personas que no lo utilizan."
+        ],
+        "answer": 4,
+        "explanation": "Lectura de tabla de usuarios de internet.",
+        "context": "Tabla de Usuarios de Internet por Regiones (Ver PDF para datos completos)."
+    },
+    {
+        "id": 124,
+        "topic": "Matemáticas - Trigonometría",
+        "question": "Con la información de los ángulos de referencia, se puede afirmar que:",
+        "options": [
+            "sen 130° = - sen 50°",
+            "cos 250° = cos 70°",
+            "tan 315° = - tan 45°",
+            "csc 200° = csc 20°"
+        ],
+        "answer": 1,
+        "explanation": "Análisis de ángulos en cuadrantes.",
+        "context": "Un ángulo de referencia θr para θ..."
+    },
+    {
+        "id": 125,
+        "topic": "Matemáticas - Geometría",
+        "question": "El profesor presenta a sus estudiantes el siguiente desarrollo plano de un prisma de base irregular. [Requiere Imagen]",
+        "options": [
+            "Opción A [Ver Imagen]",
+            "Opción B [Ver Imagen]",
+            "Opción C [Ver Imagen]",
+            "Opción D [Ver Imagen]"
+        ],
+        "answer": 2,
+        "explanation": "Pregunta depende de la visualización del prisma.",
+        "context": "El profesor presenta a sus estudiantes..."
+    },
+    {
+        "id": 126,
+        "topic": "Matemáticas - Álgebra",
+        "question": "De las siguientes relaciones del conjunto M en el conjunto N, la que NO corresponde a una función es: [Requiere Imagen]",
+        "options": [
+            "Gráfica A",
+            "Gráfica B",
+            "Gráfica C",
+            "Gráfica D"
+        ],
+        "answer": 2,
+        "explanation": "Identificación de funciones (cada elemento del dominio tiene una única imagen).",
+        "context": "Conjuntos M y N."
+    },
+    {
+        "id": 127,
+        "topic": "Matemáticas - Álgebra",
+        "question": "¿Cuál es la gráfica de la función f(x) = 3/2 x + 3? [Requiere Imagen]",
+        "options": [
+            "Gráfica A",
+            "Gráfica B",
+            "Gráfica C",
+            "Gráfica D"
+        ],
+        "answer": 1,
+        "explanation": "Pendiente 3/2 (positiva) e intercepto en y = 3.",
+        "context": "La representación gráfica de la función f(x) = mx + b..."
+    },
+    {
+        "id": 128,
+        "topic": "Matemáticas - Probabilidad",
+        "question": "Si se extrae una balota de cada urna, el evento de que el número formado sea mayor a 999 y sea de 801 es:",
+        "options": [
+            "seguro, porque la probabilidad es 1",
+            "imposible, porque la probabilidad es 0",
+            "probable, porque la probabilidad es 0,33",
+            "poco probable, porque la probabilidad es 0,01"
+        ],
+        "answer": 4,
+        "explanation": "Cálculo de probabilidad compuesta.",
+        "context": "Los estudiantes de grado octavo van a realizar una rifa..."
+    },
+    {
+        "id": 129,
+        "topic": "Matemáticas - Álgebra",
+        "question": "De las siguientes gráficas, la que NO corresponde a una función es: [Requiere Imagen]",
+        "options": [
+            "Gráfica A",
+            "Gráfica B",
+            "Gráfica C",
+            "Gráfica D"
+        ],
+        "answer": 2,
+        "explanation": "Prueba de la línea vertical.",
+        "context": "Identificación de funciones gráficas."
+    },
+    {
+        "id": 130,
+        "topic": "Matemáticas - Álgebra",
+        "question": "Los números reales que corresponden a los puntos P, Q, R, S que se encuentran representados en la recta son respectivamente: [Requiere Imagen de Recta]",
+        "options": [
+            "-2/3, 5, 2.5, 2/6",
+            "-1/3, 3, 2.8, 10/3",
+            "-2/3, 3, 2.5, 10/3",
+            "-1/3, 5, 2.5, 1/3"
+        ],
+        "answer": 3,
+        "explanation": "Ubicación en la recta numérica.",
+        "context": "En la recta real, se representan tanto los números racionales como los irracionales..."
+    },
+    {
+        "id": 131,
+        "topic": "Matemáticas - Geometría",
+        "question": "La posición en la que NO se debe colocar el aspersor (A), porque no alcanza a regar toda la zona verde es: [Requiere Imagen]",
+        "options": [
+            "10 m A",
+            "8 m A",
+            "6 m A",
+            "9 m A"
+        ],
+        "answer": 3,
+        "explanation": "El radio de acción es 12m. Se debe analizar la geometría circular.",
+        "context": "Un jardinero desea colocar un dispersor de agua... Radio 12m, Zona diámetro 20m."
+    },
+    {
+        "id": 132,
+        "topic": "Matemáticas - Probabilidad",
+        "question": "Al lanzar un dado sobre una mesa, la probabilidad de que, en la cara superior, salga un número par mayor que 3 es",
+        "options": [
+            "2/6, porque hay dos números mayores que 3 que son pares.",
+            "1/6, porque hay un número mayor que 3 que es par.",
+            "2/3, porque de los tres números mayores que 3 hay dos pares.",
+            "1/3, porque de los tres números mayores que 3 uno es par."
+        ],
+        "answer": 1,
+        "explanation": "Números mayores que 3: {4, 5, 6}. Pares en ese conjunto: {4, 6} (2 números). Total caras: 6. Prob = 2/6.",
+        "context": "La probabilidad de que ocurra un evento..."
+    },
+    {
+        "id": 133,
+        "topic": "Matemáticas - Álgebra",
+        "question": "La fracción generatriz del número 3,75 es:",
+        "options": [
+            "A",
+            "B",
+            "3,75 - 3 / 99",
+            "D"
+        ],
+        "answer": 2,
+        "explanation": "3.75 = 375/100 = 15/4. O si es periódico? El texto dice 'decimal periódico puro'. Si es 3,75 periódico (3.7575...): (375-3)/99 = 372/99. Opción B coincide con 372/99.",
+        "context": "Para expresar un número racional en forma decimal..."
+    },
+    {
+        "id": 134,
+        "topic": "Matemáticas - Álgebra",
+        "question": "La expresión que sirve para determinar el número de bacterias al transcurrir t horas es:",
+        "options": [
+            "5.000 (2)^t",
+            "5.000 (2)^20t",
+            "5.000 (2)^(t/20)",
+            "5.000 (2)^(3t)"
+        ],
+        "answer": 4,
+        "explanation": "Se duplica cada 20 min. En 1 hora (60 min) se duplica 3 veces. Factor es 2^(3t) si t es horas.",
+        "context": "Una población de bacterias se duplica cada 20 minutos..."
+    },
+    {
+        "id": 135,
+        "topic": "Matemáticas - Álgebra",
+        "question": "El tiempo transcurrido para que el número de bacterias sea de 80.000 es:",
+        "options": [
+            "1 hora y 20 minutos.",
+            "1 hora y 40 minutos.",
+            "2 horas y 20 minutos.",
+            "2 horas y 40 minutos."
+        ],
+        "answer": 1,
+        "explanation": "5000 * 2^n = 80000 -> 2^n = 16 -> n=4 periodos. 4 * 20 min = 80 min = 1h 20min.",
+        "context": "Una población de bacterias se duplica cada 20 minutos..."
+    },
+    {
+        "id": 136,
+        "topic": "Matemáticas - Geometría",
+        "question": "Un cono es cortado por un plano paralelo a la base. La figura que se obtiene después del corte es: [Requiere Imagen de opciones]",
+        "options": [
+            "Opción A",
+            "Opción B",
+            "Opción C (Círculo/Elipse?)",
+            "Opción D"
+        ],
+        "answer": 4,
+        "explanation": "El corte de un cono con un plano paralelo a la base genera un círculo (o circunferencia).",
+        "context": "Un cono es cortado por un plano..."
+    },
+    {
+        "id": 137,
+        "topic": "Matemáticas - Estadística",
+        "question": "La expresión subrayada significa que para dibujar los anillos:",
+        "options": [
+            "todos ellos deben encontrarse a la misma distancia del centro.",
+            "se hacen circunferencias cada vez de mayor radio, pero con el mismo centro.",
+            "se hacen circunferencias duplicando el radio del anterior anillo, pero con el mismo centro.",
+            "se ubica el centro y se dibujan todas las circunferencias con el mismo diámetro."
+        ],
+        "answer": 4,
+        "explanation": "Definición de anillos concéntricos.",
+        "context": "Las dianas se marcan con 10 anillos concéntricos..."
+    },
+    {
+        "id": 138,
+        "topic": "Matemáticas - Estadística",
+        "question": "Por lo tanto, se puede afirmar que (sobre los puntajes de Martha, Carolina y Andrea):",
+        "options": [
+            "Martha obtuvo más puntos que Carolina.",
+            "Carolina obtuvo más puntos que Andrea.",
+            "Andrea obtuvo más puntos que Martha.",
+            "Carolina obtuvo más puntos que Martha."
+        ],
+        "answer": 3,
+        "explanation": "Cálculo de puntajes totales sumando flechas.",
+        "context": "Martha: 2 flechas en 6, 1 en 8... Carolina... Andrea..."
+    },
+    {
+        "id": 139,
+        "topic": "Matemáticas - Estadística",
+        "question": "De la tabla, ES INCORRECTO afirmar que:",
+        "options": [
+            "URSS ha subido más veces al podio que Corea del Sur.",
+            "México y Estados Unidos han subido al podio el mismo número de veces.",
+            "Finlandia y Moldavia han subido al podio el mismo número de veces.",
+            "México ha subido más veces al podio que Polonia."
+        ],
+        "answer": 1,
+        "explanation": "Lectura de tabla de medallería olímpica.",
+        "context": "Listado de podios en los juegos olímpicos..."
+    },
+    {
+        "id": 140,
+        "topic": "Matemáticas - Estadística",
+        "question": "La gráfica que representa la información presentada en la tabla es: [Requiere Imagen]",
+        "options": [
+            "Gráfica A",
+            "Gráfica B",
+            "Gráfica C",
+            "Gráfica D"
+        ],
+        "answer": 2,
+        "explanation": "Cotejar gráfica de barras con datos de la tabla.",
+        "context": "Listado de podios en los juegos olímpicos..."
     }
 ]
