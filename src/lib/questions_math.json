@@ -345,6 +345,7 @@
         "id": 124,
         "topic": "Matemáticas - Trigonometría",
         "question": "Con la información de los ángulos de referencia, se puede afirmar que:",
+        "figure": "q124",
         "options": [
             "sen 130° = - sen 50°",
             "cos 250° = cos 70°",

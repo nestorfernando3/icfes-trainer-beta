@@ -54,7 +54,9 @@ export default function CategorySelector({ categories, questionCounts, selected,
                         >
                             <span className="category-icon">{meta.icon}</span>
                             <div className="category-info">
-                                <span className="category-name">{cat}</span>
+                                <span className="category-name">
+                                    {cat.startsWith('Matemáticas - ') ? cat.replace('Matemáticas - ', '') : cat}
+                                </span>
                                 <span className="category-count">{count} preguntas</span>
                             </div>
                             {selected === cat && <span className="category-check">✓</span>}
