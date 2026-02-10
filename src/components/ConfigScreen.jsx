@@ -102,6 +102,7 @@ export default function ConfigScreen({ onStart }) {
                             onClick={() => {
                                 setSelectedSubject(subject.id)
                                 setSelectedCategory(subject.id === 'matematicas' ? 'Matemáticas' : 'all')
+                                if (subject.id === 'matematicas') setLimit(0) // Default to all questions for Math
                             }}
                             style={{
                                 padding: '2rem',

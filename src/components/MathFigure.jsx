@@ -179,5 +179,14 @@ export default function MathFigure({ figureId }) {
         )
     }
 
-    return null
+    // Generic Fallback for valid ID but no specific implementation
+    return (
+        <div style={style}>
+            <div style={{ padding: '2rem', textAlign: 'center', color: 'var(--text-secondary)' }}>
+                <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>📐</div>
+                <p>Referencia Visual: {figureId}</p>
+                <p style={{ fontSize: '0.8rem' }}>Gráfico en proceso de digitalización</p>
+            </div>
+        </div>
+    )
 }

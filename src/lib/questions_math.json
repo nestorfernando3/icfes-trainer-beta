@@ -331,6 +331,7 @@
         "id": 123,
         "topic": "Matemáticas - Estadística",
         "question": "De la información presentada, se puede afirmar que el número de personas que utiliza internet:",
+        "figure": "q123_generic",
         "options": [
             "en Asia es más del doble que en Europa en el año 2012.",
             "en Oceanía aumentó en la misma proporción, de 2000 a 2012, que África.",
@@ -405,6 +406,7 @@
         "id": 128,
         "topic": "Matemáticas - Probabilidad",
         "question": "Si se extrae una balota de cada urna, el evento de que el número formado sea mayor a 999 y sea de 801 es:",
+        "figure": "q128_generic",
         "options": [
             "seguro, porque la probabilidad es 1",
             "imposible, porque la probabilidad es 0",
@@ -478,6 +480,7 @@
         "id": 133,
         "topic": "Matemáticas - Álgebra",
         "question": "La fracción generatriz del número 3,75 es:",
+        "figure": "q133_generic",
         "options": [
             "A",
             "B",
@@ -492,6 +495,7 @@
         "id": 134,
         "topic": "Matemáticas - Álgebra",
         "question": "La expresión que sirve para determinar el número de bacterias al transcurrir t horas es:",
+        "figure": "q134_generic",
         "options": [
             "5.000 (2)^t",
             "5.000 (2)^20t",
@@ -506,6 +510,7 @@
         "id": 135,
         "topic": "Matemáticas - Álgebra",
         "question": "El tiempo transcurrido para que el número de bacterias sea de 80.000 es:",
+        "figure": "q135_generic",
         "options": [
             "1 hora y 20 minutos.",
             "1 hora y 40 minutos.",
@@ -535,6 +540,7 @@
         "id": 137,
         "topic": "Matemáticas - Estadística",
         "question": "La expresión subrayada significa que para dibujar los anillos:",
+        "figure": "q137_generic",
         "options": [
             "todos ellos deben encontrarse a la misma distancia del centro.",
             "se hacen circunferencias cada vez de mayor radio, pero con el mismo centro.",
@@ -549,6 +555,7 @@
         "id": 138,
         "topic": "Matemáticas - Estadística",
         "question": "Por lo tanto, se puede afirmar que (sobre los puntajes de Martha, Carolina y Andrea):",
+        "figure": "q138_generic",
         "options": [
             "Martha obtuvo más puntos que Carolina.",
             "Carolina obtuvo más puntos que Andrea.",
@@ -563,6 +570,7 @@
         "id": 139,
         "topic": "Matemáticas - Estadística",
         "question": "De la tabla, ES INCORRECTO afirmar que:",
+        "figure": "q139_generic",
         "options": [
             "URSS ha subido más veces al podio que Corea del Sur.",
             "México y Estados Unidos han subido al podio el mismo número de veces.",
